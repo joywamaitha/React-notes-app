@@ -10,7 +10,7 @@ interface SidebarProps {
 const Sidebar = ({ notes, onDelete, onNoteClick }: SidebarProps) => {
   return (
     <div className="sidebar">
-      <h2>Your Notes</h2>
+      <h2>Your Notes Here</h2>
       <ul>
         {notes.map((note, index) => (
           <li key={index}>
