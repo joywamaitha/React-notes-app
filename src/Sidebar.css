@@ -1,0 +1,29 @@
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Add this line to center horizontally */
+    padding: 16px;
+    background-color: #ee6b6b;
+    border-right: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .note-title {
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  .delete-button {
+    background-color: red; /* Change color to red */
+    color: white; /* Change text color to white */
+    border: none;
+    padding: 4px 8px; /* Adjust padding for the button */
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 4px; /* Add some margin to separate buttons */
+  }
